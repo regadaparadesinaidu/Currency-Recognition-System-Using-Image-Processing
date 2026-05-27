@@ -38,6 +38,9 @@ Currency-Recognition-System-Using-Image-Processing/
 │   ├── feature_extractor.py  # SIFT/ORB keypoint and edge detectors
 │   └── matcher.py            # Feature matching and logic thresholds
 │
+├── app.py                    # Main application entry point (GUI/Webcam Controller)
+├── requirements.txt          # Python package dependency manifest
+└── README.md                 # Project
 
 git clone [https://github.com/YOUR_USERNAME/Currency-Recognition-System-Using-Image-Processing.git](https://github.com/YOUR_USERNAME/Currency-Recognition-System-Using-Image-Processing.git)
 cd Currency-Recognition-System-Using-Image-Processing
@@ -49,7 +52,3 @@ pip install -r requirements.txt
 
 python app.py
 
-
-├── app.py                    # Main application entry point (GUI/Webcam Controller)
-├── requirements.txt          # Python package dependency manifest
-└── README.md                 # Project 
